@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#clock {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: auto;
+    margin-top: 15%;
+    font-size: 100px;
+    width: 50%;
+}
+
+#clock .clockTime {
+    width: 100%;
+}
+
+#clock .clockTime .clockTimeIngredient {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 20px;
+    background-color: rgba(34, 113, 163, 0.895);
+    box-shadow: 5px 5px 3px rgb(141, 139, 139);
+    color: rgb(24, 41, 114);
+}
+
+#clock .clockTime .note {
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin-top: 10px;
+    text-shadow: 5px 5px 3px rgb(141, 139, 139);;
+}
